@@ -1,5 +1,5 @@
 const getAll = (req, res) => {
-    // Implement your logic here
+    res.send('Devuelve todos los autores');
 }
 
 module.exports = { getAll }
