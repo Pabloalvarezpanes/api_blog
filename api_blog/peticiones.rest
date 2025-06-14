@@ -1,4 +1,7 @@
 @host = http://localhost:3000
 
 ###
-GET {{host}}/api/autores/5/posts
+GET {{host}}/api/autores/1/posts
+
+###
+GET {{host}}/api/posts
