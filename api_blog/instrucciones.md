@@ -8,6 +8,13 @@
 -- Headers: XXXX
 -- Body: XXXX
 
+---- La consulta ya probada en la bbdd es:
+SELECT posts.id, posts.titulo, posts.descripcion, posts.fecha_creacion, posts.categoria 
+FROM posts 
+WHERE posts.autor_id = ?;
+
+Dónde posts.autor_id es /:id
+
 
 - Se ebe definir una URL que nos permita recuperar los diferentes posts escritos por un autor en concreto
 -- Method: GET
